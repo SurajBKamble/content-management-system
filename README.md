@@ -1,2 +1,2 @@
 # content-management-system
-This project is only for education purpose
+This project is only for practice of Angular
