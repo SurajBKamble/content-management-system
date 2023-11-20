@@ -1,0 +1,41 @@
+.main-container{
+    width: 100%;
+    height: -webkit-fill-available;
+    position: absolute;
+}
+
+.header-container{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(78, 80, 79);
+    position: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav-logo{
+    width: 150px;
+    height: -webkit-fill-available;
+}
+
+.left-nav-logo p{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin: auto;
+    width: 58%;
+    padding: 16px;
+}
+
+.right-nav{
+    width: 300px;
+    height: -webkit-fill-available;
+}
+
+.footer-container{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(66, 65, 64);
+    bottom: 0;
+    position: inherit;
+}
