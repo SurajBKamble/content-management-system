@@ -7,7 +7,7 @@
 .header-container{
     width: 100%;
     height: 60px;
-    background-color: rgb(78, 80, 79);
+    background-color: rgb(9 95 201);
     position: inherit;
     display: flex;
     justify-content: space-between;
@@ -21,6 +21,7 @@
 .left-nav-logo p{
     font-size: 25px;
     font-weight: bolder;
+    color: white;
     font-family: sans-serif;
     margin: auto;
     width: 58%;
@@ -32,10 +33,18 @@
     height: -webkit-fill-available;
 }
 
+.common-link{
+    list-style: none;
+}
+
+.link-list{
+
+}
+
 .footer-container{
     width: 100%;
     height: 50px;
-    background-color: rgb(66, 65, 64);
+    background-color: rgb(151 152 154);
     bottom: 0;
     position: inherit;
 }
