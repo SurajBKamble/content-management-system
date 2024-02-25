@@ -26,7 +26,7 @@
     font-size: 25px;
     font-weight: bolder;
     color: white;
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab', sans-serif;
     margin: auto;
     width: 58%;
     padding: 13px;
@@ -60,7 +60,7 @@
 .common-link li a{
     color: white;
     text-decoration: none;
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 .content-container{
@@ -69,17 +69,108 @@
     padding: 10px 0px;
     background-image: url('../../images/content.jpg');
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .content-container h4{
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 40px;
     padding: 10px 0px;
 }
 .content-container p{
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 20px;
     padding: 10px 0px;
+}
+
+.content-images-container{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container{
+    width: 25%;
+    height: auto;
+}
+
+.image-container p{
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.image-container img:hover{
+    width: 110%;
+    transition: width 0.3s ease, font-size 0.3s ease;
+}
+.feedback-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Roboto Slab', sans-serif;
+    background-image: url('../../assets/images/img4.jpg');
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+    background-attachment: fixed;
+}
+
+.feedback-container h4{
+    padding: 40px 0px 0px 0px;
+}
+
+.input-container{
+    padding: 30px 0px;
+}
+
+.input-container input{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    opacity: 1;
+    background-color: transparent;
+    padding: 0px 23px;
+    border-color: white;
+    font-size: 20px;
+    color: white;
+}
+
+.input-textarea-container{
+    padding: 30px 0px;
+}
+
+.input-textarea-container textarea{
+    font-family: 'Roboto Slab', sans-serif;
+    width: 80%;
+    border-radius: 10px;
+    opacity: 1;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-color: white;
+    font-size: 20px;
+    color: white;
+}
+
+.button-container{
+    padding: 20px 0px;
+    text-align: left;
+    width: 80%;
+    margin: 0% 10%;
+}
+
+.button-container input{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(15, 15, 226);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
 }
 .footer-container{
     width: 100%;
@@ -87,4 +178,25 @@
     background-color: rgb(151 152 154);
     bottom: 0;
     position: inherit;
+}
+
+@media screen and (max-width: 600px){
+    .content-container h4{
+        font-size: 20px;
+    }
+
+    .content-container p{
+        font-size: 15px;
+    }
+    .content-images-container{
+        display: block;
+        text-align: center;
+    }
+    .image-container{
+        width: 100%;
+    }
+    .image-container img{
+        width: 70%;
+        margin: 20px 0px;
+    }
 }
